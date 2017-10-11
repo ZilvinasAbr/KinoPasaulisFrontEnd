@@ -34,16 +34,16 @@ import JobAdvertisementsPage from './cinemaStudio/components/jobAdvertisements/J
 import AddJobAdvertisementPage from './cinemaStudio/components/jobAdvertisements/addJobAdvertisement/AddJobAdvertisementPage';
 import MoviePage from './cinemaStudio/components/movies/moviePage/MoviePage';
 import MessagesPage from './cinemaStudio/components/messages/MessagesPage';
-// import TaggedMoviesPage from './components/home/movieCreator/TaggedMoviesPage';
-// import PendingMoviesPage from './components/home/movieCreator/PendingMoviesPage';
-// import JobOffersPage from './components/home/movieCreator/JobOffersPage';
-// import AnnouncementsPage from './components/home/AnnouncementsPage';
+import TaggedMoviesPage from './components/home/movieCreator/TaggedMoviesPage';
+import PendingMoviesPage from './components/home/movieCreator/PendingMoviesPage';
+import JobOffersPage from './components/home/movieCreator/JobOffersPage';
+import AnnouncementsPage from './components/home/AnnouncementsPage';
 import Votings from './components/home/votesAdmin/votings/Votings';
 import AddVotingPage from './components/home/votesAdmin/votings/AddVotingPage';
 import Orders from './components/home/client/Orders';
-// import AwardsPage from './components/home/movieCreator/AwardsPage';
+import AwardsPage from './components/home/movieCreator/AwardsPage';
 import Voting from './components/home/client/Voting';
-// import AwardsStatisticsPage from './components/home/movieCreator/AwardsStatisticsPage';
+import AwardsStatisticsPage from './components/home/movieCreator/AwardsStatisticsPage';
 
 import registerServiceWorker from './registerServiceWorker';
 
@@ -84,12 +84,12 @@ render((
       {/*<Route path="eventDetails/:id" component={EventDetails2}/>*/}
       <Route path="movies" component={Movies}/>
       <Route path="movie/:id" component={MoviesDetail}/>
-      {/*<Route path="announcements" component={AnnouncementsPage}/>*/}
-      {/*<Route path="movieCreator/taggedMovies" component={TaggedMoviesPage}/>*/}
-      {/*<Route path="movieCreator/pendingMovies" component={PendingMoviesPage}/>*/}
-      {/*<Route path="movieCreator/awards" component={AwardsPage}/>*/}
-      {/*<Route path="movieCreator/jobOffers" component={JobOffersPage}/>*/}
-      {/*<Route path="movieCreator/awardsStatistics" component={AwardsStatisticsPage}/>*/}
+      <Route path="announcements" component={AnnouncementsPage}/>
+      <Route path="movieCreator/taggedMovies" component={TaggedMoviesPage}/>
+      <Route path="movieCreator/pendingMovies" component={PendingMoviesPage}/>
+      <Route path="movieCreator/awards" component={AwardsPage}/>
+      <Route path="movieCreator/jobOffers" component={JobOffersPage}/>
+      <Route path="movieCreator/awardsStatistics" component={AwardsStatisticsPage}/>
       <Route path="votesAdmin/votings" component={Votings}/>
       <Route path="votesAdmin/addvoting" component={AddVotingPage}/>
       <Route path="client/orders" component={Orders}/>
