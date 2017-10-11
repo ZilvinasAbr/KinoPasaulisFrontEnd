@@ -38,9 +38,9 @@ import MessagesPage from './cinemaStudio/components/messages/MessagesPage';
 // import PendingMoviesPage from './components/home/movieCreator/PendingMoviesPage';
 // import JobOffersPage from './components/home/movieCreator/JobOffersPage';
 // import AnnouncementsPage from './components/home/AnnouncementsPage';
-// import Votings from './components/home/votesAdmin/votings/Votings';
-// import AddVotingPage from './components/home/votesAdmin/votings/AddVotingPage';
-// import Orders from './components/home/client/Orders';
+import Votings from './components/home/votesAdmin/votings/Votings';
+import AddVotingPage from './components/home/votesAdmin/votings/AddVotingPage';
+import Orders from './components/home/client/Orders';
 // import AwardsPage from './components/home/movieCreator/AwardsPage';
 import Voting from './components/home/client/Voting';
 // import AwardsStatisticsPage from './components/home/movieCreator/AwardsStatisticsPage';
@@ -90,9 +90,9 @@ render((
       {/*<Route path="movieCreator/awards" component={AwardsPage}/>*/}
       {/*<Route path="movieCreator/jobOffers" component={JobOffersPage}/>*/}
       {/*<Route path="movieCreator/awardsStatistics" component={AwardsStatisticsPage}/>*/}
-      {/*<Route path="votesAdmin/votings" component={Votings}/>*/}
-      {/*<Route path="votesAdmin/addvoting" component={AddVotingPage}/>*/}
-      {/*<Route path="client/orders" component={Orders}/>*/}
+      <Route path="votesAdmin/votings" component={Votings}/>
+      <Route path="votesAdmin/addvoting" component={AddVotingPage}/>
+      <Route path="client/orders" component={Orders}/>
       <Route path="client/voting" component={Voting}/>
     </Router>
   </Provider>
