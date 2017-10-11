@@ -16,7 +16,7 @@ import TheatherRegisterPage from './components/register/theather/TheatherRegiste
 import MovieCreatorRegisterPage from './components/register/movieCreator/MovieCreatorRegisterPage';
 import VotesAdminRegisterPage from './components/register/votesAdmin/VotesAdminRegisterPage';
 import ClientRegisterPage from './components/register/client/ClientRegisterPage';
-// import Auditoriums from './components/home/theather/auditoriums/Auditoriums';
+import Auditoriums from './components/home/theather/auditoriums/Auditoriums';
 // import Events from './components/home/theather/events/Events';
 // import Subscriptions from './components/home/theather/Subscriptions';
 // import NewEvent from './components/home/theather/events/NewEvent';
@@ -66,7 +66,7 @@ render((
       <Route path="register/votesadmin" component={VotesAdminRegisterPage}/>
       <Route path="register/client" component={ClientRegisterPage}/>
       <Route path="login" component={LoginPage}/>
-      {/*<Route path="theather/auditoriums" component={Auditoriums}/>*/}
+      <Route path="theather/auditoriums" component={Auditoriums}/>
       {/*<Route path="theather/events" component={Events}/>*/}
       {/*<Route path="theather/subscriptions" component={Subscriptions}/>*/}
       {/*<Route path="theather/newEvent" component={NewEvent}/>*/}
