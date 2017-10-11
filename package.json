@@ -6,6 +6,7 @@
     "axios": "^0.12.0",
     "react": "^15.4.2",
     "react-bootstrap": "^0.30.3",
+    "react-bootstrap-date-picker": "^4.0.0",
     "react-dom": "^15.1.0",
     "react-redux": "^4.4.5",
     "react-router": "^2.7.0",
@@ -23,5 +24,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "proxy": "http://localhost:5000"
 }
