@@ -126,11 +126,6 @@ class CinemaStudioRegisterForm extends React.Component {
   }
 }
 
-CinemaStudioRegisterForm.propTypes = {
-  fields: React.PropTypes.object.isRequired,
-  handleSubmit: React.PropTypes.func.isRequired
-};
-
 const config = { // <----- THIS IS THE IMPORTANT PART!
   form: 'registerCinemaStudio',                   // a unique name for this form
   fields: [

@@ -106,11 +106,6 @@ class VotesAdminRegisterForm extends React.Component {
   }
 }
 
-VotesAdminRegisterForm.propTypes = {
-  fields: React.PropTypes.object.isRequired,
-  handleSubmit: React.PropTypes.func.isRequired
-};
-
 const config = {
   form: 'registerVotesAdmin',
   fields: [

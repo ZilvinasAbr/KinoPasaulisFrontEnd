@@ -25,14 +25,14 @@ import ClientRegisterPage from './components/register/client/ClientRegisterPage'
 // import EventDetails2 from './components/home/EventDetails';
 // import Movies from './components/home/Movies';
 // import MoviesDetail from './components/home/MoviesDetail';
-// import MoviesPage from './cinemaStudio/components/movies/MoviesPage';
+import MoviesPage from './cinemaStudio/components/movies/MoviesPage';
 // import AddMoviePage from './cinemaStudio/components/movies/addMovie/AddMoviePage';
 // import EditMoviePage from './cinemaStudio/components/movies/editMovie/EditMoviePage';
 // import CinemaStudiosStatisticsPage from './cinemaStudio/components/CinemaStudiosStatisticsPage';
 // import CinemaStudiosMoviesStatisticsPage from './cinemaStudio/components/movies/MoviesStatisticsPage';
 // import JobAdvertisementsPage from './cinemaStudio/components/jobAdvertisements/JobAdvertisementsPage';
 // import AddJobAdvertisementPage from './cinemaStudio/components/jobAdvertisements/addJobAdvertisement/AddJobAdvertisementPage';
-// import MoviePage from './cinemaStudio/components/movies/moviePage/MoviePage';
+import MoviePage from './cinemaStudio/components/movies/moviePage/MoviePage';
 // import MessagesPage from './cinemaStudio/components/messages/MessagesPage';
 // import TaggedMoviesPage from './components/home/movieCreator/TaggedMoviesPage';
 // import PendingMoviesPage from './components/home/movieCreator/PendingMoviesPage';
@@ -71,8 +71,8 @@ render((
       {/*<Route path="theather/subscriptions" component={Subscriptions}/>*/}
       {/*<Route path="theather/newEvent" component={NewEvent}/>*/}
       {/*<Route path="theather/eventDetails/:id" component={EventDetails}/>*/}
-      {/*<Route path="cinemaStudio/movies" component={MoviesPage}/>*/}
-      {/*<Route path="cinemaStudio/movie/:id" component={MoviePage}/>*/}
+      <Route path="cinemaStudio/movies" component={MoviesPage}/>
+      <Route path="cinemaStudio/movie/:id" component={MoviePage}/>
       {/*<Route path="cinemaStudio/editMovie/:id" component={EditMoviePage}/>*/}
       {/*<Route path="cinemaStudio/addMovie" component={AddMoviePage}/>*/}
       {/*<Route path="cinemaStudio/statistics" component={CinemaStudiosStatisticsPage}/>*/}

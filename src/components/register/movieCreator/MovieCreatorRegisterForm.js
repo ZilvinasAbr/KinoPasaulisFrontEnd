@@ -142,11 +142,6 @@ class MovieCreatorRegisterForm extends React.Component {
   }
 }
 
-MovieCreatorRegisterForm.propTypes = {
-  fields: React.PropTypes.object.isRequired,
-  handleSubmit: React.PropTypes.func.isRequired
-};
-
 const config = {
   form: 'registerMovieCreator',
   fields: [

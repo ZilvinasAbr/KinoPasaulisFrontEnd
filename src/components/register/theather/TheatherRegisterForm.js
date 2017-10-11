@@ -90,11 +90,6 @@ class TheatherRegisterForm extends React.Component {
   }
 }
 
-TheatherRegisterForm.propTypes = {
-  fields: React.PropTypes.object.isRequired,
-  handleSubmit: React.PropTypes.func.isRequired
-};
-
 const config = { // <----- THIS IS THE IMPORTANT PART!
   form: 'registerTheather',                   // a unique name for this form
   fields: ['username', 'password', 'email', 'repeat', 'title', 'city', 'address', 'phone'] // all the fields in your form

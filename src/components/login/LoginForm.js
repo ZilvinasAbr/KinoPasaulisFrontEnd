@@ -68,11 +68,6 @@ class LoginForm extends React.Component {
   }
 }
 
-LoginForm.propTypes = {
-  fields: React.PropTypes.object.isRequired,
-  handleSubmit: React.PropTypes.func.isRequired
-};
-
 const config = { // <----- THIS IS THE IMPORTANT PART!
   form: 'login',                   // a unique name for this form
   fields: [

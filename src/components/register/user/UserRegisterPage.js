@@ -4,8 +4,4 @@ const UserRegisterPage = (props) => {
 
 };
 
-UserRegisterPage.propTypes = {
-
-};
-
 export default UserRegisterPage;

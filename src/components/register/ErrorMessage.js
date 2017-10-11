@@ -6,8 +6,4 @@ const ErrorMessage = ({message}) => (
   </div>
 );
 
-ErrorMessage.propTypes = {
-  message: React.PropTypes.string
-};
-
 export default ErrorMessage;

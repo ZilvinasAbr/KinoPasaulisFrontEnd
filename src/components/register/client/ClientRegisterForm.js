@@ -116,11 +116,6 @@ class ClientRegisterForm extends React.Component {
   }
 }
 
-ClientRegisterForm.propTypes = {
-  fields: React.PropTypes.object.isRequired,
-  handleSubmit: React.PropTypes.func.isRequired
-};
-
 const config = { // <----- THIS IS THE IMPORTANT PART!
   form: 'registerClient',                   // a unique name for this form
   fields: [
