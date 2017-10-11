@@ -42,7 +42,7 @@ import MessagesPage from './cinemaStudio/components/messages/MessagesPage';
 // import AddVotingPage from './components/home/votesAdmin/votings/AddVotingPage';
 // import Orders from './components/home/client/Orders';
 // import AwardsPage from './components/home/movieCreator/AwardsPage';
-// import Voting from './components/home/client/Voting';
+import Voting from './components/home/client/Voting';
 // import AwardsStatisticsPage from './components/home/movieCreator/AwardsStatisticsPage';
 
 import registerServiceWorker from './registerServiceWorker';
@@ -93,7 +93,7 @@ render((
       {/*<Route path="votesAdmin/votings" component={Votings}/>*/}
       {/*<Route path="votesAdmin/addvoting" component={AddVotingPage}/>*/}
       {/*<Route path="client/orders" component={Orders}/>*/}
-      {/*<Route path="client/voting" component={Voting}/>*/}
+      <Route path="client/voting" component={Voting}/>
     </Router>
   </Provider>
 ), document.getElementById('root'));
