@@ -5,7 +5,9 @@ import {
   requestShowEvents,
   receiveShowEvents,
   receiveOneEvent,
-  deleteOneShow,
+  // TODO: Commented out, because it does not exist. Somehow old
+  // TODO: project bundles, while new project does not
+  // deleteOneShow,
   getStatistics as getSeatStatistics
 } from '../../actionCreators/theaterActionCreators';
 
@@ -93,7 +95,7 @@ export function deleteShowById(id, arrayId) {
         'Content-type': 'application/json'
       }
     }).then(response => {
-      dispatch(deleteOneShow(arrayId));
+      // dispatch(deleteOneShow(arrayId));
     })
       .catch(error => {
         console.error(error);
