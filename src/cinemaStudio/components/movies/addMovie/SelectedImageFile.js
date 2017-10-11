@@ -35,14 +35,4 @@ const SelectedImageFile = ({
   </tr>
 );
 
-SelectedImageFile.propTypes = {
-  file: React.PropTypes.shape({
-    preview: React.PropTypes.string.isRequired
-  }).isRequired,
-  removeDroppedImage: React.PropTypes.func.isRequired,
-  index: React.PropTypes.number.isRequired,
-  onTitleChange: React.PropTypes.func.isRequired,
-  onDescriptionChange: React.PropTypes.func.isRequired
-};
-
 export default SelectedImageFile;

@@ -98,8 +98,4 @@ class MoviePage extends React.Component {
   }
 }
 
-MoviePage.propTypes = {
-
-};
-
 export default MoviePage;

@@ -114,11 +114,4 @@ class SelectVideoModal extends React.Component {
   }
 }
 
-SelectVideoModal.propTypes = {
-  modalIsOpen: React.PropTypes.bool.isRequired,
-  afterOpenModal: React.PropTypes.func,
-  closeModal: React.PropTypes.func.isRequired,
-  selectVideo: React.PropTypes.func.isRequired
-};
-
 export default SelectVideoModal;

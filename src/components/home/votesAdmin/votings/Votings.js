@@ -15,7 +15,7 @@ class Votings extends React.Component {
   }
 
   delete(votingId) {
-    var approve = confirm("Paspaudus OK, bus ištrintas balsavimas kartu su visais balsais!");
+    var approve = window.confirm("Paspaudus OK, bus ištrintas balsavimas kartu su visais balsais!");
 
     if (approve === true) {
       axios.post(`/api/voting/deleteVoting/${votingId}`)

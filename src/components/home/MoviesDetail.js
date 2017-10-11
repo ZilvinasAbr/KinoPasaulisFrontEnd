@@ -277,8 +277,4 @@ class MoviesDetail extends React.Component {
   }
 }
 
-MoviesDetail.propTypes = {
-
-};
-
 export default MoviesDetail;

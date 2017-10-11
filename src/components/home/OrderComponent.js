@@ -68,10 +68,4 @@ class OrderComponent extends React.Component {
   }
 }
 
-OrderComponent.propTypes = {
-  addOrder: React.PropTypes.func.isRequired,
-  show: React.PropTypes.object.isRequired,
-  index: React.PropTypes.number.isRequired
-};
-
 export default OrderComponent;

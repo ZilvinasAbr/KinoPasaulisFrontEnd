@@ -155,11 +155,6 @@ class MoviesPage extends React.Component {
   }
 }
 
-MoviesPage.propTypes = {
-  dispatch: React.PropTypes.func.isRequired,
-  movies: React.PropTypes.arrayOf(React.PropTypes.object).isRequired
-};
-
 function mapStateToProps(state) {
   return {
     movies: state.cinemaStudioPage.movies || []
