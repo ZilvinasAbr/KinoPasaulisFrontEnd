@@ -28,6 +28,13 @@ const VotesAdminNavigationBar = ({logout, changePageToHome, goToVotings, goToAdd
   );
 };
 
+VotesAdminNavigationBar.propTypes = {
+  changePageToHome: React.PropTypes.func.isRequired,
+  changePageToProfile: React.PropTypes.func.isRequired,
+  goToVotings: React.PropTypes.func.isRequired,
+  logout: React.PropTypes.func.isRequired
+};
+
 function mapDispatchToProps(dispatch) {
   return {
     changePageToHome() {

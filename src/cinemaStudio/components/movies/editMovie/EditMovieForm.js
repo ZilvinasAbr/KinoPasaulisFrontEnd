@@ -333,6 +333,12 @@ class EditMovieForm extends React.Component {
   }
 }
 
+EditMovieForm.propTypes = {
+  dispatch: React.PropTypes.func.isRequired,
+  movieCreators: React.PropTypes.arrayOf(React.PropTypes.object).isRequired,
+  movieId: React.PropTypes.number.isRequired
+};
+
 function mapStateToProps(state, ownProps) {
   return {
     movieCreators: state.cinemaStudioPage.movieCreators

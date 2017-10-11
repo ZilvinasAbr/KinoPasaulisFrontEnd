@@ -371,6 +371,11 @@ class AddMovieForm extends React.Component {
   }
 }
 
+AddMovieForm.propTypes = {
+  dispatch: React.PropTypes.func.isRequired,
+  movieCreators: React.PropTypes.arrayOf(React.PropTypes.object).isRequired
+};
+
 function mapStateToProps(state) {
   return {
     movieCreators: state.cinemaStudioPage.movieCreators

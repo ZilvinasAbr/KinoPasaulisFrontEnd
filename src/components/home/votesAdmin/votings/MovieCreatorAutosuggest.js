@@ -106,4 +106,10 @@ class MovieCreatorAutosuggest extends React.Component {
   }
 }
 
+MovieCreatorAutosuggest.propTypes = {
+  selectMovieCreator: React.PropTypes.func.isRequired,
+  movieCreators: React.PropTypes.arrayOf(React.PropTypes.object).isRequired,
+  selectedMovieCreators: React.PropTypes.arrayOf(React.PropTypes.object).isRequired
+};
+
 export default MovieCreatorAutosuggest;

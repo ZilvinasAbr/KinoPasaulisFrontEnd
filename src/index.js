@@ -16,15 +16,15 @@ import TheatherRegisterPage from './components/register/theather/TheatherRegiste
 import MovieCreatorRegisterPage from './components/register/movieCreator/MovieCreatorRegisterPage';
 import VotesAdminRegisterPage from './components/register/votesAdmin/VotesAdminRegisterPage';
 import ClientRegisterPage from './components/register/client/ClientRegisterPage';
-import Auditoriums from './components/home/theather/auditoriums/Auditoriums';
+// import Auditoriums from './components/home/theather/auditoriums/Auditoriums';
 // import Events from './components/home/theather/events/Events';
 // import Subscriptions from './components/home/theather/Subscriptions';
 // import NewEvent from './components/home/theather/events/NewEvent';
 // import EventDetails from './components/home/theather/events/EventDetails';
 // import Theathers from './components/home/Theathers';
 // import EventDetails2 from './components/home/EventDetails';
-// import Movies from './components/home/Movies';
-// import MoviesDetail from './components/home/MoviesDetail';
+import Movies from './components/home/Movies';
+import MoviesDetail from './components/home/MoviesDetail';
 import MoviesPage from './cinemaStudio/components/movies/MoviesPage';
 import AddMoviePage from './cinemaStudio/components/movies/addMovie/AddMoviePage';
 import EditMoviePage from './cinemaStudio/components/movies/editMovie/EditMoviePage';
@@ -66,7 +66,7 @@ render((
       <Route path="register/votesadmin" component={VotesAdminRegisterPage}/>
       <Route path="register/client" component={ClientRegisterPage}/>
       <Route path="login" component={LoginPage}/>
-      <Route path="theather/auditoriums" component={Auditoriums}/>
+      {/*<Route path="theather/auditoriums" component={Auditoriums}/>*/}
       {/*<Route path="theather/events" component={Events}/>*/}
       {/*<Route path="theather/subscriptions" component={Subscriptions}/>*/}
       {/*<Route path="theather/newEvent" component={NewEvent}/>*/}
@@ -82,8 +82,8 @@ render((
       <Route path="cinemaStudio/messages" component={MessagesPage}/>
       {/*<Route path="theathers/:id" component={Theathers}/>*/}
       {/*<Route path="eventDetails/:id" component={EventDetails2}/>*/}
-      {/*<Route path="movies" component={Movies}/>*/}
-      {/*<Route path="movie/:id" component={MoviesDetail}/>*/}
+      <Route path="movies" component={Movies}/>
+      <Route path="movie/:id" component={MoviesDetail}/>
       {/*<Route path="announcements" component={AnnouncementsPage}/>*/}
       {/*<Route path="movieCreator/taggedMovies" component={TaggedMoviesPage}/>*/}
       {/*<Route path="movieCreator/pendingMovies" component={PendingMoviesPage}/>*/}
