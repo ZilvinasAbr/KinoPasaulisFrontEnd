@@ -9,7 +9,7 @@ import {composeWithDevTools} from 'redux-devtools-extension';
 import {reducer, initialState} from './reducers/index';
 // import HomePage from './components/home/HomePage';
 import LandingPage from './components/landing/LandingPage';
-// import LoginPage from './components/login/LoginPage';
+import LoginPage from './components/login/LoginPage';
 // import RegisterPage from './components/register/RegisterPage';
 // import CinemaStudioRegisterPage from './components/register/cinemaStudio/CinemaStudioRegisterPage';
 // import TheatherRegisterPage from './components/register/theather/TheatherRegisterPage';
@@ -65,7 +65,7 @@ render((
       {/*<Route path="register/moviecreator" component={MovieCreatorRegisterPage}/>*/}
       {/*<Route path="register/votesadmin" component={VotesAdminRegisterPage}/>*/}
       {/*<Route path="register/client" component={ClientRegisterPage}/>*/}
-      {/*<Route path="login" component={LoginPage}/>*/}
+      <Route path="login" component={LoginPage}/>
       {/*<Route path="theather/auditoriums" component={Auditoriums}/>*/}
       {/*<Route path="theather/events" component={Events}/>*/}
       {/*<Route path="theather/subscriptions" component={Subscriptions}/>*/}
