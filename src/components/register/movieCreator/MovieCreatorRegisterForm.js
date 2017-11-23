@@ -111,7 +111,7 @@ class MovieCreatorRegisterForm extends React.Component {
 
         <FormGroup controlId="birthDate">
           <ControlLabel>
-            Gimimo data1
+            Gimimo data
           </ControlLabel>
           <DatePicker
             dateFormat="YYYY-MM-DD"
